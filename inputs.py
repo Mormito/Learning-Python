@@ -1,7 +1,6 @@
 #learning inputs
 
-name = input("Say your name! ")
-name = name.upper()
+name = input("Say your name! ").upper()
 
 if name != "HEISENBERG":
     print("\n"+name)
